@@ -12,6 +12,12 @@
     "papertrail",
     "heroku-postgresql"
   ],
+  "env": {
+    "FLASK_APP": {
+      "description": "Flask application name",
+      "value": "superset"
+    }
+  },
   "scripts": {
     "postdeploy": "./postdeploy.sh"
   },
