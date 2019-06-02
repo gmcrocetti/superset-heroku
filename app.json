@@ -6,14 +6,14 @@
   ],
   "respository": "",
   "description": "Superset is an open Source BI tool",
-  "logo": "https://cdn.rawgit.com/airbnb/superset/master/superset/assets/images/superset_logo.png",
+  "logo": "https://cloud.githubusercontent.com/assets/130878/20946612/49a8a25c-bbc0-11e6-8314-10bef902af51.png",
   "repository": "https://github.com/dugjason/superset-on-heroku",
   "addons": [
     "papertrail",
     "heroku-postgresql"
   ],
   "scripts": {
-    "postdeploy": "postdeploy.sh"
+    "postdeploy": "./postdeploy.sh"
   },
   "buildpacks": [
     {
