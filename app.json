@@ -1,0 +1,23 @@
+{
+  "name": "Superset on Heroku",
+  "keywords": [
+    "superset",
+    "bussiness inteligence"
+  ],
+  "respository": "",
+  "description": "Superset is an open Source BI tool",
+  "logo": "https://cdn.rawgit.com/airbnb/superset/master/superset/assets/images/superset_logo.png",
+  "repository": "https://github.com/dugjason/superset-on-heroku",
+  "addons": [
+    "papertrail",
+    "heroku-postgresql"
+  ],
+  "scripts": {
+    "postdeploy": "postdeploy.sh"
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
