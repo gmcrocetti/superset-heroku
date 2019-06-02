@@ -17,11 +17,8 @@ Fill out the form, and later you should be performing analytics at the speed of 
 
 - To make changes to your app like creating admin user, clone your app locally using the [Heroku Toolbelt](https://toolbelt.heroku.com/):
 
-```sh
-heroku git:clone --app YOURAPPNAME
-```
-
 - Check Papertrail logs for debugging any errors.
+- Login with user:`admin`, password:`123` (don't forget to change)
 
 ### How this works
 
